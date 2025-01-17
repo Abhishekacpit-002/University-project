@@ -1,0 +1,192 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+header .logo-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Banner Image */
+#banner {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+}
+
+/* About Section */
+#about {
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+/* Courses Section */
+#courses {
+    padding: 40px;
+    text-align: center;
+    background-color: #eaeaea;
+}
+
+.course-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.course {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.course:hover {
+    transform: translateY(-10px);
+}
+
+.course-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.course h3 {
+    color: #0044cc;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.course p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Faculty Section */
+#faculty {
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+}
+
+.faculty-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.faculty {
+    width: 200px;
+    text-align: center;
+}
+
+.faculty-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.faculty h3 {
+    font-size: 18px;
+    color: #0044cc;
+}
+
+.faculty p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Campus Life Section */
+#campus-life {
+    padding: 40px;
+    text-align: center;
+    background-color: #eaeaea;
+}
+
+.campus-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.campus-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
